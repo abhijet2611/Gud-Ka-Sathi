@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EAB05C"
+        tools:context=".profile">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/purple_200"
+            app:itemIconTint="@drawable/select"
+            app:itemTextColor="@drawable/select"
+            app:menu="@menu/menu_navigation_bar" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="87dp"
+            android:layout_height="88dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="159dp"
+            android:layout_marginEnd="164dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/gks" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="187dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="111dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="113dp"
+            android:text="@string/appname"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/editprofilebtn"
+            android:layout_width="284dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="62dp"
+            android:text="प्रोफ़ाइल संपादित करें" />
+
+        <Button
+            android:id="@+id/contactusbtn"
+            android:layout_width="284dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/incomebtn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="61dp"
+            android:text="संपर्क करें" />
+
+        <Button
+            android:id="@+id/creditbtn"
+            android:layout_width="284dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/contactusbtn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="64dp"
+            android:text="श्रेय" />
+
+        <Button
+            android:id="@+id/orderhistorybtn"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_below="@+id/editprofilebtn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="62dp"
+            android:text="आदेश इतिहास" />
+
+        <Button
+            android:id="@+id/incomebtn"
+            android:layout_width="284dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/orderhistorybtn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="63dp"
+            android:text="आय" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

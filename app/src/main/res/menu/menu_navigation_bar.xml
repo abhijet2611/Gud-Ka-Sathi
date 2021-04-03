@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:title="आदेश प्राप्त हुए"
+        android:icon="@drawable/ic_baseline_dashboard"/>
+
+    <item
+        android:id="@+id/home"
+        android:title="होम"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="प्रोफ़ाइल"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+
+</menu>

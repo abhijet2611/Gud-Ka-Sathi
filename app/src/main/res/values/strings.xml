@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">गुड़ का साथी</string>
+    <string name="appname">गुड़ का साथी</string>
+    <string name="submit">जमा करना</string>
+    <string name="reset">रीसेट</string>
+    <string name="add_product">उत्पाद जोड़ें</string>
+</resources>
